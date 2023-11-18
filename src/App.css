@@ -1,0 +1,108 @@
+/* Task form */
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #222;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-item {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.task-item.completed {
+  background-color: #eee;
+  text-decoration: line-through;
+}
+
+.task-item h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.task-item p {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.task-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.task-form input,
+.task-form textarea,
+.task-form select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.task-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Tasks List */
+
+.ul-TaskList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.li-TaskList {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.h3-TaskList {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.p-TaskList {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
