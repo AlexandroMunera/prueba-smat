@@ -18,9 +18,9 @@ export const TaskItem = ({
           }
         }}
       />
-      <h3>{task.name}</h3>
+      <h3>{task.nameGenericTask}</h3>
       <p>{task.description}</p>
-      <span className="task-state">{task.state}</span>
+      <span className="task-state">{task.nameCategory}</span>
     </div>
   );
 };
